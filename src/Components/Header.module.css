@@ -1,0 +1,93 @@
+.header {
+  width: 80%;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-family: "Microsport", sans-serif;
+  font-size: 160%;
+  color: #e0b46a;
+  justify-content: space-between;
+  text-shadow: 2px 2px 2px orange;
+}
+
+.navbar {
+  width: 11%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.navbar div a {
+  text-decoration: none;
+  color: #63605b;
+  text-shadow: 2px 2px 2px rgb(88, 87, 85);
+  transition: all ease 0.5s;
+}
+
+.navbar div a:hover {
+  color: rgb(255, 170, 0);
+}
+
+@media (max-width: 1560px) {
+  .navbar {
+    width: 15%;
+  }
+}
+
+@media (max-width: 1190px) {
+  .navbar {
+    width: 20%;
+  }
+}
+
+@media (max-width: 860px) {
+  .navbar {
+    width: 25%;
+  }
+}
+
+@media (max-width: 860px) {
+  .header {
+    width: 90%;
+  }
+}
+
+@media (max-width: 690px) {
+  .navbar {
+    width: 30%;
+  }
+
+  .header {
+    font-size: 130%;
+  }
+
+  .navbar {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 560px) {
+  .navbar {
+    width: 40%;
+  }
+}
+
+@media (max-width: 424px) {
+  .header {
+    font-size: 110%;
+  }
+  .navbar {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    font-size: 110%;
+  }
+  .navbar {
+    font-size: 80%;
+  }
+}

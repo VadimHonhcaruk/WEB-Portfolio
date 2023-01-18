@@ -1,0 +1,433 @@
+.about {
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.aboutMe {
+  width: 43%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.aboutMeDescription {
+  font-size: 20px;
+  color: rgba(109, 104, 104, 0.877);
+  text-shadow: 1px 1px 8px rgb(113, 107, 107);
+}
+
+.aboutMeHello {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.aboutMeName {
+  overflow: hidden;
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", serif;
+  border-right: 0.15em solid #e0b46a;
+  white-space: nowrap;
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+.Vadim {
+  color: #e0b46a;
+  filter: drop-shadow(5px 5px 0px #c99e53);
+  animation: vadim 10s infinite;
+}
+
+@keyframes vadim {
+  0% {
+    filter: drop-shadow(5px 5px 0px #c99e53);
+  }
+  50% {
+    filter: drop-shadow(5px 5px 0px #000000);
+  }
+
+  100% {
+    filter: drop-shadow(5px 5px 0px #c99e53);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@media (max-width: 1859px) {
+  .aboutMe {
+    width: 48%;
+  }
+}
+
+@media (max-width: 1700px) {
+  .aboutMe {
+    width: 49%;
+    justify-content: unset;
+  }
+
+  .aboutMeDescription {
+    font-size: 18px;
+  }
+
+  .aboutMeHello {
+    font-size: 23px;
+  }
+
+  .aboutMeName {
+    margin: 2% 0;
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .aboutMe {
+    width: 47%;
+  }
+
+  .aboutMeDescription {
+    font-size: 20px;
+  }
+
+  .aboutMeHello {
+    font-size: 25px;
+  }
+
+  .aboutMeName {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1435px) {
+  .aboutMe {
+    width: 44%;
+  }
+
+  .aboutMeDescription {
+    font-size: 18px;
+  }
+
+  .aboutMeHello {
+    font-size: 22px;
+  }
+
+  .aboutMeName {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 1365px) {
+  .aboutMe {
+    width: 40%;
+  }
+
+  .aboutMeDescription {
+    font-size: 15px;
+  }
+
+  .aboutMeHello {
+    font-size: 20px;
+  }
+
+  .aboutMeName {
+    font-size: 40px;
+  }
+
+  .Vadim {
+    filter: drop-shadow(2px 2px 0px #c99e53);
+  }
+
+  @keyframes vadim {
+    0% {
+      filter: drop-shadow(3px 3px 0px #c99e53);
+    }
+    50% {
+      filter: drop-shadow(3px 3px 0px #000000);
+    }
+
+    100% {
+      filter: drop-shadow(3px 3px 0px #c99e53);
+    }
+  }
+}
+
+@media (max-width: 1310px) {
+  .about {
+    height: auto;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1325px) {
+  .aboutMe {
+    width: 50%;
+  }
+
+  .aboutMeDescription {
+    font-size: 18px;
+  }
+
+  .aboutMeHello {
+    font-size: 22px;
+  }
+
+  .aboutMeName {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 1195px) {
+  .aboutMe {
+    width: 50%;
+  }
+
+  .aboutMeDescription {
+    font-size: 16px;
+  }
+
+  .aboutMeHello {
+    font-size: 20px;
+  }
+
+  .aboutMeName {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .aboutMe {
+    width: 60%;
+  }
+
+  .aboutMeDescription {
+    font-size: 15px;
+  }
+
+  .aboutMeHello {
+    font-size: 18px;
+  }
+
+  .aboutMeName {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 920px) {
+  .about {
+    height: 40vh;
+    margin-top: 5%;
+  }
+  .aboutMeDescription {
+    font-size: 15px;
+  }
+
+  .aboutMeHello {
+    font-size: 18px;
+  }
+
+  .aboutMeName {
+    font-size: 36px;
+  }
+
+  @keyframes vadim {
+    0% {
+      filter: drop-shadow(2px 2px 0px #c99e53);
+    }
+    50% {
+      filter: drop-shadow(2px 2px 0px #000000);
+    }
+
+    100% {
+      filter: drop-shadow(2px 2px 0px #c99e53);
+    }
+  }
+}
+
+@media (max-width: 795px) {
+  .aboutMeDescription {
+    font-size: 13px;
+  }
+
+  .aboutMeHello {
+    font-size: 17px;
+  }
+
+  .aboutMeName {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 710px) {
+  .about {
+    width: 90%;
+  }
+
+  .aboutMe {
+    width: 60%;
+  }
+
+  .aboutMeDescription {
+    font-size: 11px;
+  }
+
+  .aboutMeHello {
+    font-size: 15px;
+  }
+
+  .aboutMeName {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 615px) {
+  .aboutMe {
+    width: 60%;
+  }
+
+  .aboutMeDescription {
+    font-size: 11px;
+  }
+
+  .aboutMeHello {
+    font-size: 16px;
+  }
+
+  .aboutMeName {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    height: auto;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 527px) {
+  .aboutMe {
+    width: 55%;
+  }
+
+  .aboutMeDescription {
+    font-size: 11px;
+  }
+
+  .aboutMeHello {
+    font-size: 16px;
+  }
+
+  .aboutMeName {
+    font-size: 20px;
+  }
+
+  @keyframes vadim {
+    0% {
+      filter: drop-shadow(1px 1px 0px #c99e53);
+    }
+    50% {
+      filter: drop-shadow(1px 1px 0px #000000);
+    }
+
+    100% {
+      filter: drop-shadow(1px 1px 0px #c99e53);
+    }
+  }
+}
+
+@media (max-width: 615px) {
+  .aboutMe {
+    width: 60%;
+  }
+
+  .aboutMeDescription {
+    font-size: 11px;
+  }
+
+  .aboutMeHello {
+    font-size: 16px;
+  }
+
+  .aboutMeName {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutMe {
+    width: 70%;
+  }
+
+  .aboutMeDescription {
+    font-size: 11px;
+  }
+
+  .aboutMeHello {
+    font-size: 15px;
+  }
+
+  .aboutMeName {
+    font-size: 20px;
+    animation: none;
+    border: none;
+    overflow: unset;
+    white-space: unset;
+  }
+
+  @keyframes vadim {
+    0% {
+      filter: drop-shadow(0.5px 0.5px 0px #c99e53);
+    }
+    50% {
+      filter: drop-shadow(0.5px 0.5px 0px #000000);
+    }
+
+    100% {
+      filter: drop-shadow(0.5px 0.5px 0px #c99e53);
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .aboutMe {
+    width: 65%;
+  }
+
+  .aboutMeDescription {
+    font-size: 10px;
+  }
+
+  .aboutMeHello {
+    font-size: 14px;
+  }
+
+  .aboutMeName {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 364px) {
+  .aboutMe {
+    width: 70%;
+  }
+}

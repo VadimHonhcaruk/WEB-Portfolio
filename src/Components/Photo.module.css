@@ -1,0 +1,118 @@
+.photo {
+  width: 576px;
+  height: 706.2px;
+  margin-bottom: 12%;
+  filter: drop-shadow(1px 1px 25px #e0b46a);
+  animation: vadim 10s infinite;
+}
+
+.photoCont {
+  width: 54%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.vexels.com/media/users/3/218271/isolated/preview/2fb9021e4742482c6e9852b4a73d3762-vertical-scribble-shape.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  filter: drop-shadow(16px 16px 20px #000000);
+  opacity: 0;
+  transition: all ease 3s;
+}
+
+.photoContANIMATION {
+  opacity: 1;
+}
+
+@keyframes vadim {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(1px 1px 25px #e0b46a);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 25px rgb(187, 212, 236));
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(1px 1px 25px #e0b46a);
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 1680px) {
+  .photoCont {
+    width: 60%;
+  }
+
+  .photo {
+    width: 518.4px;
+    height: 635.58px;
+  }
+}
+
+@media (max-width: 1310px) {
+  .photoCont {
+    width: 60%;
+  }
+
+  .photo {
+    width: 414.72px;
+    height: 508.464px;
+  }
+}
+
+@media (max-width: 1056px) {
+  .photoCont {
+    width: 60%;
+  }
+
+  .photo {
+    width: 331.776px;
+    height: 406.77px;
+    animation: none;
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 920px) {
+  .photo {
+    margin-bottom: 0px;
+    margin-top: 0;
+    filter: drop-shadow(1px 1px 15px #e0b46a);
+  }
+}
+
+@media (max-width: 600px) {
+  .photo {
+    width: 265.6px;
+    height: 325.41px;
+    animation: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .photo {
+    width: 238.9px;
+    height: 292.9px;
+    animation: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .photo {
+    width: 215.1px;
+    height: 263.6px;
+    animation: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .photo {
+    width: 172.1px;
+    height: 210.9px;
+    animation: none;
+  }
+}

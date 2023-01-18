@@ -1,0 +1,168 @@
+.about h1 {
+  font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", serif;
+  color: #e0b46a;
+  filter: drop-shadow(5px 5px 1px rgba(36, 34, 34, 0.849));
+}
+
+.about {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  opacity: 0;
+  transform: translateX(-20%);
+  transition: all ease 2s;
+}
+
+.descCont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.descCont div img {
+  width: 60%;
+  height: auto;
+  filter: drop-shadow(1px 1px 20px #e0b46a);
+}
+
+.myDescription {
+  width: 50%;
+  font-size: 21px;
+  color: rgba(109, 104, 104, 0.877);
+  text-shadow: 1px 1px 8px rgb(135, 134, 128);
+  text-align: center;
+}
+
+.aboutANIMATION {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (max-width: 1630px) {
+  .myDescription {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1518px) {
+  .myDescription {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 1342px) {
+  .myDescription {
+    font-size: 18px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1192px) {
+  .myDescription {
+    font-size: 16px;
+    width: 75%;
+  }
+}
+
+@media (max-width: 1192px) {
+  .about h1 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .myDescription {
+    font-size: 16px;
+    width: 85%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .about h1 {
+    font-size: 60px;
+  }
+
+  .myDescription {
+    font-size: 15px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 950px) {
+  .myDescription {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 790px) {
+  .about h1 {
+    font-size: 45px;
+  }
+
+  .descCont {
+    flex-direction: column;
+  }
+  .myDescription {
+    font-size: 16px;
+    width: 70%;
+    margin: 5% 0;
+  }
+
+  .descCont div img {
+    width: 30%;
+    filter: drop-shadow(1px 1px 10px #e0b46a);
+  }
+}
+
+@media (max-width: 710px) {
+  .about {
+    width: 90%;
+  }
+}
+
+@media (max-width: 615px) {
+  .about h1 {
+    filter: drop-shadow(3px 3px 1px rgba(36, 34, 34, 0.849));
+  }
+}
+
+@media (max-width: 600px) {
+  .about h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 530px) {
+  .myDescription {
+    font-size: 15px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about h1 {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 380px) {
+  .about h1 {
+    font-size: 28px;
+  }
+
+  .myDescription {
+    font-size: 14px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 300px) {
+  .about h1 {
+    font-size: 25px;
+    filter: drop-shadow(2px 2px 1px rgba(36, 34, 34, 0.849));
+  }
+}

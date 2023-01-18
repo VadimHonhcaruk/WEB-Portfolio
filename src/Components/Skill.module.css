@@ -1,0 +1,90 @@
+.skill {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 50px;
+  color: #74716e;
+  text-shadow: 1px 1px 5px #343331;
+}
+
+.skill img {
+  width: 70px;
+  height: 70px;
+  filter: drop-shadow(4px 4px 5px #000000);
+}
+
+@media (max-width: 1420px) {
+  .skill {
+    width: 80%;
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .skill {
+    width: 90%;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .skill {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+
+  .skill img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 790px) {
+  .skill {
+    font-size: 25px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .skill img {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 615px) {
+  .skill {
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+
+  .skill img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill {
+    font-size: 20px;
+    margin-bottom: 7px;
+  }
+
+  .skill img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 300px) {
+  .skill {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .skill img {
+    width: 28px;
+    height: 28px;
+  }
+}
