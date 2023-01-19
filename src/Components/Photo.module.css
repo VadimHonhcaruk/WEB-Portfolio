@@ -67,6 +67,7 @@
 @media (max-width: 1056px) {
   .photoCont {
     width: 60%;
+    filter: drop-shadow(6px 6px 10px #000000);
   }
 
   .photo {
