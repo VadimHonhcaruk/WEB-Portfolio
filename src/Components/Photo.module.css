@@ -67,7 +67,7 @@
 @media (max-width: 1056px) {
   .photoCont {
     width: 60%;
-    filter: drop-shadow(6px 6px 10px #000000);
+    filter: drop-shadow(3px 3px 4px #000000);
   }
 
   .photo {
@@ -82,7 +82,7 @@
   .photo {
     margin-bottom: 0px;
     margin-top: 0;
-    filter: drop-shadow(1px 1px 15px #e0b46a);
+    filter: drop-shadow(1px 1px 4px #e0b46a);
   }
 }
 
