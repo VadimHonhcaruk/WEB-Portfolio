@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WEB-Portfolio/static/css/main.b4d4bdaf.css",
+    "main.css": "/WEB-Portfolio/static/css/main.3f769db9.css",
     "main.js": "/WEB-Portfolio/static/js/main.5e7a504d.js",
     "static/media/Vadim.png": "/WEB-Portfolio/static/media/Vadim.ec65c85e02bcdaad2ae0.png",
     "static/media/css.png": "/WEB-Portfolio/static/media/css.5179b1516098cb21ba19.png",
@@ -11,11 +11,11 @@
     "static/media/sticker2.png": "/WEB-Portfolio/static/media/sticker2.d2bb6cdf86c59c7d9259.png",
     "static/media/computer.png": "/WEB-Portfolio/static/media/computer.ec5bd6d3679be131f4ec.png",
     "index.html": "/WEB-Portfolio/index.html",
-    "main.b4d4bdaf.css.map": "/WEB-Portfolio/static/css/main.b4d4bdaf.css.map",
+    "main.3f769db9.css.map": "/WEB-Portfolio/static/css/main.3f769db9.css.map",
     "main.5e7a504d.js.map": "/WEB-Portfolio/static/js/main.5e7a504d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4d4bdaf.css",
+    "static/css/main.3f769db9.css",
     "static/js/main.5e7a504d.js"
   ]
 }
