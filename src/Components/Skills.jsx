@@ -21,7 +21,7 @@ const Skills = () => {
                     <Skill image={html} name='HTML' exp='1+ year' />
                     <Skill image={css} name='CSS' exp='1+ year' />
                     <Skill image={js} name='JS' exp='1+ year' />
-                    <Skill image={react} name='REACT' exp='4 months' />
+                    <Skill image={react} name='REACT' exp='6 months' />
                 </div>
                 <div className={classes.computer}>
                     <img alt="computer" src={computer} />
