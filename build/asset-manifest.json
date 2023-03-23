@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/WEB-Portfolio/static/css/main.d8ce13cc.css",
+    "main.js": "/WEB-Portfolio/static/js/main.2cc60682.js",
+    "static/media/Vadim.png": "/WEB-Portfolio/static/media/Vadim.ec65c85e02bcdaad2ae0.png",
+    "static/media/css.png": "/WEB-Portfolio/static/media/css.5179b1516098cb21ba19.png",
+    "static/media/react.png": "/WEB-Portfolio/static/media/react.9de556ebcbbfc0ea51d3.png",
+    "static/media/js.png": "/WEB-Portfolio/static/media/js.1306d05e5ee275c5880b.png",
+    "static/media/html.png": "/WEB-Portfolio/static/media/html.9b674892ef5960bafca3.png",
+    "static/media/sticker.png": "/WEB-Portfolio/static/media/sticker.e89d9f8f17c32c4b2ce0.png",
+    "static/media/sticker2.png": "/WEB-Portfolio/static/media/sticker2.d2bb6cdf86c59c7d9259.png",
+    "static/media/computer.png": "/WEB-Portfolio/static/media/computer.ec5bd6d3679be131f4ec.png",
+    "index.html": "/WEB-Portfolio/index.html",
+    "main.d8ce13cc.css.map": "/WEB-Portfolio/static/css/main.d8ce13cc.css.map",
+    "main.2cc60682.js.map": "/WEB-Portfolio/static/js/main.2cc60682.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8ce13cc.css",
+    "static/js/main.2cc60682.js"
+  ]
+}
