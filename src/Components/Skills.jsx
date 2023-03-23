@@ -18,10 +18,10 @@ const Skills = () => {
             <a name="skills"><h1>Skills</h1></a>
             <div className={classes.skillsCONT}>
                 <div className={classes.skills}>
-                    <Skill image={html} name='HTML' exp='1+ year' />
-                    <Skill image={css} name='CSS' exp='1+ year' />
-                    <Skill image={js} name='JS' exp='1+ year' />
-                    <Skill image={react} name='REACT' exp='6 months' />
+                    <Skill image={html} name='HTML' exp='1.5 years' />
+                    <Skill image={css} name='CSS' exp='1.5 years' />
+                    <Skill image={js} name='JS' exp='1+ years' />
+                    <Skill image={react} name='REACT' exp='1 year' />
                 </div>
                 <div className={classes.computer}>
                     <img alt="computer" src={computer} />
